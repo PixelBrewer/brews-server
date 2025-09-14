@@ -1,0 +1,17 @@
+# Reduce Docker build context and speed up builds
+**/bin/
+**/obj/
+**/TestResults/
+**/.vs/
+**/.idea/
+**/.vscode/
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+*.user
+*.suo
+*.nupkg
+*.snupkg
+*.swp
+*.DS_Store
