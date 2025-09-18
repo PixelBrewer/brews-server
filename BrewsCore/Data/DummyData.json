@@ -1,0 +1,90 @@
+[
+  {
+    "Id": "b1f8c9a2-4f3a-4b9d-9a2d-1c2e3f4a5b6c",
+    "Name": "Ethiopian Yirgacheffe",
+    "Origin": "Ethiopia",
+    "RoastLevel": "Light",
+    "ObtainedOn": "2024-03-12T10:00:00Z",
+    "Price": 14.5,
+    "Notes": "Floral, citrus, tea-like body",
+    "Rating": 5,
+    "ObtainedAtLocation": "Bluebird Roastery"
+  },
+  {
+    "Id": "c2d7e8f1-6a4b-4e2c-8f7a-2d3b4c5e6f70",
+    "Name": "Colombian Supremo",
+    "Origin": "Colombia",
+    "RoastLevel": "Medium",
+    "ObtainedOn": "2023-11-05T15:30:00Z",
+    "Price": 12.0,
+    "Notes": "Chocolate, caramel sweetness, balanced",
+    "Rating": 4,
+    "ObtainedAtLocation": "Market Street Grocer"
+  },
+  {
+    "Id": "d3e6f7a8-7b5c-4f1d-9b8c-3e4f5a6b7c80",
+    "Name": "Sumatra Mandheling",
+    "Origin": "Indonesia",
+    "RoastLevel": "Dark",
+    "ObtainedOn": "2024-01-20T09:15:00Z",
+    "Price": 16.25,
+    "Notes": "Earthy, low acidity, full body",
+    "Rating": 5,
+    "ObtainedAtLocation": "Old Town Roasters"
+  },
+  {
+    "Id": "e4f5a6b7-8c6d-4a2e-0b9d-4f5a6b7c8d90",
+    "Name": "Kenyan AA",
+    "Origin": "Kenya",
+    "RoastLevel": "Medium-Light",
+    "ObtainedOn": "2024-06-02T08:00:00Z",
+    "Price": 15.0,
+    "Notes": "Bright acidity, berry notes",
+    "Rating": 4,
+    "ObtainedAtLocation": "Farmers Market Stall 12"
+  },
+  {
+    "Id": "f5a6b7c8-9d7e-4b3f-1c0e-5a6b7c8d9e01",
+    "Name": "Guatemalan Huehuetenango",
+    "Origin": "Guatemala",
+    "RoastLevel": "Medium",
+    "ObtainedOn": "2023-09-18T12:45:00Z",
+    "Price": 13.75,
+    "Notes": "Nutty, chocolate undertones, smooth finish",
+    "Rating": 4,
+    "ObtainedAtLocation": "Online Specialty Shop"
+  },
+  {
+    "Id": "a6b7c8d9-0e8f-4c4a-2d1f-6b7c8d9e0f12",
+    "Name": "Panama Geisha",
+    "Origin": "Panama",
+    "RoastLevel": "Light",
+    "ObtainedOn": "2025-02-10T11:00:00Z",
+    "Price": 28.0,
+    "Notes": "Jasmine, bergamot, tea-like clarity",
+    "Rating": 5,
+    "ObtainedAtLocation": "Specialty Auction Purchase"
+  },
+  {
+    "Id": "b7c8d9e0-1f9a-4d5b-3e2f-7c8d9e0f1a23",
+    "Name": "Brazil Santos",
+    "Origin": "Brazil",
+    "RoastLevel": "Medium-Dark",
+    "ObtainedOn": "2024-08-30T14:20:00Z",
+    "Price": 11.25,
+    "Notes": "Sweet, low acidity, good for espresso",
+    "Rating": 3,
+    "ObtainedAtLocation": "Corner Cafe Supply"
+  },
+  {
+    "Id": "c8d9e0f1-2a0b-4e6c-4f3a-8d9e0f1a2b34",
+    "Name": "Costa Rican Tarrazú",
+    "Origin": "Costa Rica",
+    "RoastLevel": "Medium",
+    "ObtainedOn": "2024-05-07T07:50:00Z",
+    "Price": 13.0,
+    "Notes": "Bright, clean, citrus and honey notes",
+    "Rating": 4,
+    "ObtainedAtLocation": "Local Roaster Subscription"
+  }
+]
