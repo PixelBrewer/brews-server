@@ -11,12 +11,15 @@ public class CoffeeService : ICoffeeService
 {
 	public IEnumerable<Coffee> GetAllCoffees()
 	{
-		// This is just a placeholder implementation.
-		return new List<Coffee>
+		var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Data", "DummyData.json");
+		if (!File.Exists(jsonPath))
+			return [];
+
+		var json = File.ReadAllText(jsonPath);
+		var coffees = System.Text.Json.JsonSerializer.Deserialize<List<Coffee>>(json, new System.Text.Json.JsonSerializerOptions
 		{
-			new Coffee { Id = Guid.NewGuid(), Name = "Espresso", RoastLevel = "Dark" },
-			new Coffee { Id = Guid.NewGuid(), Name = "Latte", RoastLevel = "Medium" },
-			new Coffee { Id = Guid.NewGuid(), Name = "Cappuccino", RoastLevel = "Light" }
-		};
+			PropertyNameCaseInsensitive = true
+		});
+		return coffees ?? Enumerable.Empty<Coffee>();
 	}
 }
